@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-  baseURL: "https://taskflow-production-4318.up.railway.app/",
+  baseURL: "https://taskflow-production-4318.up.railway.app/api",
   headers: {
     "Content-Type": "application/json",
   },
